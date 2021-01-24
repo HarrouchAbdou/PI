@@ -1,0 +1,163 @@
+
+    body{
+      background:  url('back.jpg');
+      background-size: 100%;
+      
+      
+      color: white;
+  }
+  .Section{
+      display: none;
+  }
+  
+  h1{
+      font-family: 'Georgia' , serif;
+      margin-left: 35px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      padding-bottom: 17px;
+      position: relative;
+      color:black;
+     margin-top: 0px;
+      
+      background-size: 10px;}
+   .tt a{
+          
+      background-color: rgb(248, 210, 42); ;
+      color: black;
+      font-size: 17px;
+      padding: 10px 30px;
+      margin-top: 20px;
+      border-radius: 6px;
+      border:2px solid rgb(248, 210, 42);
+      
+      margin-top: 10px;
+      font-family: 'Georgia' , serif;
+      
+      
+      
+      }
+      h1::before{
+          content: "";
+          position: absolute;
+          width: 200px;
+          height: 3px;
+          background: rgb(248, 210, 42);;
+          bottom: 0px;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+      
+  
+  .Box{
+      top: 50%;
+      left: 50%;
+      
+      
+  }
+  h2{
+      font-size: 16px;
+      color:  rgb(248, 210, 42);
+     
+      
+  }
+  .EMI{
+      
+      border:3px solid black;
+  }
+  
+  .Box .text{
+    
+    padding-left: 50px;
+    width:50%;
+    height: 1000px;
+    font-size: 20px;
+    color: white;
+    background-color: white;
+    float: left;
+    display: flex;
+   
+    color: rgb(63, 57, 57);
+    font-weight: lighter;
+    text-shadow: 0.5px 0.5px #fdfefe;
+    border-radius: 15px 0px 0px 15px;
+    
+    border-right: none;
+    
+}
+  .Box .text .w3-ul .hind::before{
+      background-color: black;
+      
+  }
+  .Box .text .w3-ul .hind{
+      font-size: 20px;
+  }
+  .Box .text .w3-ul{
+      font-family: 'Georgia' , serif;
+      color: black;
+      font-size: 18px;
+      padding-left: 2px;
+      margin-right: 50px;
+  }
+  
+  .Box .image{
+      width: 44%;
+      height: 400px;
+      background-image:url('about.jpg') ;
+      background-size: cover;
+      background-position:  center;
+      float:left;
+      display: flex;
+      border-radius: 0px 15px 15px 0px;
+      border:3px solid rgb(248, 210, 42);;
+      border-left: none;
+      box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  }
+  .rating a {
+      color: #aaa;
+      text-decoration: none;
+      font-size: 3em;
+      transition: color .4s;
+   }
+   
+   .rating a:hover ~ a,
+  .rating a:focus ~ a {
+     color: orange;
+  }
+  .rating a:hover,
+   .rating a:focus {
+      color: orange;
+      cursor: pointer;
+   }
+  p{
+      color: black;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      
+      
+  }
+  p span{
+    color:  rgb(248, 210, 42) ;
+  }
+  .btn{
+      padding: 12px 30px ;
+      border-radius: 12px;
+      background-color: orange;
+      border:1px solid black;
+      color:black;
+      font-weight: bold;
+      font-family: Groudy Old Style;
+      cursor: pointer;
+      margin-top: 40px;
+      font-size: 22px;
+      width: 200px;
+      width: 200px;
+      opacity: 0.85;
+  }
+  .food{
+      text-align: center;
+      font-size: 50px;
+      text-shadow: 3px 3px black;
+  }
